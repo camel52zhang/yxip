@@ -22,8 +22,8 @@ jobs:
     # 关键修改点2：先同步最新代码
     - name: Pre-sync repository
       run: |
-        git config --global user.email "tianshideyou@proton.me"
-        git config --global user.name "tianshipapa"
+        git config --global user.email "JekMic@outlook.com"
+        git config --global user.name "JekMic"
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/JekMic/yxip.git
         git pull origin main  # 普通拉取最新代码
 
