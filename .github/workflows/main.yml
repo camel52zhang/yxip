@@ -24,7 +24,7 @@ jobs:
       run: |
         git config --global user.email "JekMic@outlook.com"
         git config --global user.name "JekMic"
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/JekMic/yxip.git
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/JekMic/yxip2.git
         git pull origin main  # 普通拉取最新代码
 
     - name: Set up Python
